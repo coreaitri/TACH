@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:weightSum="3"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvNameCart"
+        android:layout_width="match_parent"
+        android:text="@string/nameProduct"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvQuantityCart"
+        android:layout_width="match_parent"
+        android:text="@string/quantity"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvPriceCart"
+        android:layout_width="match_parent"
+        android:text="@string/price"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

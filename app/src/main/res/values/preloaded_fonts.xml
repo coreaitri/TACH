@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alex_brush</item>
+        <item>@font/andada</item>
+        <item>@font/capriola</item>
+        <item>@font/carter_one</item>
+        <item>@font/caveat_brush</item>
+        <item>@font/chewy</item>
+        <item>@font/inknut_antiqua_semibold</item>
+        <item>@font/risque</item>
+    </array>
+</resources>

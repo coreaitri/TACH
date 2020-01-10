@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#006600</color>
+    <color name="colorPrimaryDark">#0eb60e</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="greenPalmer">#0e6b0e</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlackTransparent">#cc000000</color>
+    <color name="colorGradient1">#eacda3</color>
+    <color name="colorGradient2">#3a4666 </color>
+    <color name="colorGradient3">#bdc7c6</color>
+    <color name="colorGradient4">#124adf</color>
+    <color name="colorGradient5">#b4b9bc</color>
+    <color name="colorGradient6">#b3e1f9</color>
+    <color name="colorGradient7">#adc4b1</color>
+</resources>

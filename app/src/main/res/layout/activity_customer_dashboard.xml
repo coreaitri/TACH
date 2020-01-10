@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Customer.DashboardCustomerActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:minHeight="?attr/actionBarSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="@string/app_name"
+                app:titleTextColor="@android:color/white"
+                android:background="?attr/colorPrimary">
+            </androidx.appcompat.widget.Toolbar>
+
+            <RelativeLayout
+                android:id="@+id/relLay"
+                android:layout_width="match_parent"
+                android:background="@drawable/gradient_all"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:padding="20dp"
+                    android:text="@string/customerDashboard"
+                    android:textAlignment="center"
+                    android:textColor="#0F0602"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/chewy"
+                    android:textStyle="bold"
+                    android:transitionName="titleTransition" />
+
+            </RelativeLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginTop="-30dp"
+                android:id="@+id/img_profile"
+                android:layout_width="60dp"
+                android:background="@drawable/ic_account"
+                android:layout_marginBottom="10dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_marginStart="20dp"
+                android:text="@string/username"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/customer"
+                android:textSize="20sp"
+                android:layout_marginStart="20dp"
+                android:layout_height="wrap_content"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_margin="10dp"
+                android:id="@+id/recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+</ScrollView>

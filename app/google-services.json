@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1042659060671",
+    "firebase_url": "https://batik-8800e.firebaseio.com",
+    "project_id": "batik-8800e",
+    "storage_bucket": "batik-8800e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042659060671:android:e0564f2a32998676090f0a",
+        "android_client_info": {
+          "package_name": "com.tugas.batik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042659060671-3d1t1kbncpvsofmo0rhrn4jghirvrei7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tugas.batik",
+            "certificate_hash": "7f0f10de115c01ffcbc95878d2388eaa13680a6f"
+          }
+        },
+        {
+          "client_id": "1042659060671-coj9ipmnmuo662bl7jolmtmpsn3bu6ar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAuVO6-39QPhx677Iz_YOb3MxmRpO_IoM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042659060671-coj9ipmnmuo662bl7jolmtmpsn3bu6ar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

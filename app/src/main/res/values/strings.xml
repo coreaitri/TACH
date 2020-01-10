@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Batik</string>
+    <string name="positioning">hanya menjual Kain Batik berkualitas buatan tangan </string>
+    <string name="welcome">PASTI BERKUALITAS</string>
+    <string name="name">Nama</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Daftar</string>
+    <string name="noAccount">Belum punya akun?  </string>
+    <string name="tvRegister">Daftar disini</string>
+    <string name="orLogin">atau Login menggunakan</string>
+    <string name="tvLogin"> Login disini </string>
+    <string name="haveAccount"> Sudah Punya Akun! </string>
+    <string name="admin">Welcome Admin</string>
+    <string name="adminDashboard">Jangan lupa untuk selalu mengupdate Batik terbarumu dan mengirim orderan Customermu ya! </string>
+    <string name="adminDashboard2">Selamat Bekerja!!!</string>
+    <string name="username">Username</string>
+    <string name="batik">Produk</string>
+    <string name="orderCustomer">List Pesanan Customer</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="nameProduct">Nama Barang</string>
+    <string name="price">Harga Barang </string>
+    <string name="save">Save</string>
+    <string name="orderId">Order Id</string>
+    <string name="contact">No HP</string>
+    <string name="nameCustomer">Nama Customer</string>
+    <string name="address">Alamat</string>
+    <string name="total">Total</string>
+    <string name="viewOrder">Lihat Pesanan</string>
+    <string name="quantity">Jumlah</string>
+    <string name="customerDashboard">Selamat datang di Aplikasi Kami. Jangan Lupa berbelanja!!</string>
+    <string name="customer">Customer</string>
+    <string name="pesan">Pesan</string>
+    <string name="a"> - </string>
+    <string name="b"> + </string>
+    <string name="c"> 0 </string>
+    <string name="d">Total : </string>
+    <string name="addToCart">Masukkan Keranjang</string>
+    <string name="confirmOrder">Confirm Order</string>
+    <string name="totalPrice">Harga </string>
+    <string name="checkout">Checkout </string>
+
+
+
+
+
+</resources>

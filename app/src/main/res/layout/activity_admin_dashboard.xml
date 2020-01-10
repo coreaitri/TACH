@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.DashboardAdminActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Admin Dashboard"
+        app:titleTextColor="@android:color/white"
+        android:background="?attr/colorPrimary"/>
+
+
+        <RelativeLayout
+            android:id="@+id/relLay"
+            android:layout_below="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:background="@drawable/gradient_all"
+            android:layout_height="200dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/chewy"
+                android:lineSpacingExtra="10sp"
+                android:text="@string/admin"
+                android:textColor="#C75879"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:transitionName="titleTransition" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/andada"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/adminDashboard"
+                android:textAlignment="center"
+                android:textColor="#1B1818"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:transitionName="titleTransition" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text1"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/inknut_antiqua_semibold"
+                android:text="@string/adminDashboard2"
+                android:textAlignment="textEnd"
+                android:textColor="#0A0A0A"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:transitionName="titleTransition" />
+
+        </RelativeLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_profile"
+            android:layout_width="100dp"
+            android:background="@drawable/circle_solid"
+            android:src="@drawable/logo"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="210dp"
+            android:layout_height="100dp"/>
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_below="@+id/img_profile"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="@string/username"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_product"
+            android:layout_below="@id/tv_username"
+            android:layout_width="match_parent"
+            android:background="@color/colorGradient2"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:text="@string/batik"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginVertical="20dp"
+            android:layout_height="50dp"/>
+
+        <Button
+            android:id="@+id/btn_list_order"
+            android:layout_below="@id/btn_product"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:text="@string/orderCustomer"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginVertical="20dp"
+            android:layout_height="50dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".RegisterActivity">
+
+            <LinearLayout
+                android:id="@+id/textQuh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_register">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="62dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="28dp"
+                    android:fontFamily="@font/inknut_antiqua_semibold"
+                    android:text="@string/app_name"
+                    android:textColor="#FFF"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/risque"
+                    android:text="@string/positioning"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginBottom="70dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/fieldsRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="240dp"
+                android:elevation="6dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <EditText
+                    android:id="@+id/etr_name"
+                    android:layout_width="300dp"
+                    android:layout_height="70dp"
+                    android:autofillHints="name"
+                    android:hint="@string/name"
+                    android:inputType="textPersonName"/>
+
+                <EditText
+                    android:id="@+id/etr_email"
+                    android:layout_width="300dp"
+                    android:layout_height="70dp"
+                    android:autofillHints="email"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"/>
+
+                <EditText
+                    android:id="@+id/etr_password"
+                    android:layout_width="300dp"
+                    android:layout_height="70dp"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:autofillHints="password"/>
+
+                <Button
+                    android:id="@+id/btnRegister"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:text="@string/register"
+                    android:textColor="@color/colorWhite"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="35dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="@string/haveAccount"/>
+
+                    <TextView
+                        android:id="@+id/tv_login"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:textColor="#00f"
+                        android:textSize="16sp"
+                        android:text="@string/tvLogin"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
